@@ -207,6 +207,16 @@ D1 재방문 리마인드 메시지의 효과를 검증하는 실험을 설계�
 
 ---
 
+## References
+
+- [공유오피스 이용자가 인식하는 공유오피스 주요 서비스품질에 대한 연구](https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART0025907)
+- [공유오피스 선택속성의 품질 분류 및 선택속성이 신뢰, 장기이용의도에 미치는 영향](https://www.earticle.net/Article/A386493)
+- [Coworking spaces: An overview and research agenda](https://www.sciencedirect.com/science/article/pii/S0048733321002390)
+- [Identifying and prioritizing coworking member needs](https://www.emerald.com/jcre/article/26/4/309/1238377/)
+- [Space-sharing experiences in hospitality: A psychological needs perspective](https://www.emerald.com/ijchm/article/37/13/252/1310575/)
+
+---
+
 ## Tech Stack
 
 ### Data Analysis & Modeling
@@ -240,16 +250,6 @@ D1 재방문 리마인드 메시지의 효과를 검증하는 실험을 설계�
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white">
   <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white">
 </p>
-
----
-
-## References
-
-- [공유오피스 이용자가 인식하는 공유오피스 주요 서비스품질에 대한 연구](https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART0025907)
-- [공유오피스 선택속성의 품질 분류 및 선택속성이 신뢰, 장기이용의도에 미치는 영향](https://www.earticle.net/Article/A386493)
-- [Coworking spaces: An overview and research agenda](https://www.sciencedirect.com/science/article/pii/S0048733321002390)
-- [Identifying and prioritizing coworking member needs](https://www.emerald.com/jcre/article/26/4/309/1238377/)
-- [Space-sharing experiences in hospitality: A psychological needs perspective](https://www.emerald.com/ijchm/article/37/13/252/1310575/)
 
 ---
 
