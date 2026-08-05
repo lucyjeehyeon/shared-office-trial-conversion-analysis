@@ -154,6 +154,22 @@ D1 재방문 리마인드 메시지의 효과를 검증하는 실험을 설계�
 
 ---
 
+## Limitations
+
+본 분석에는 다음과 같은 한계가 있습니다.
+
+- 결제 시점 정보가 없어 방문 행동과 결제 사이의 정확한 시간적 선후관계를 확인하기 어려웠습니다.
+- 반복 방문과 결제 전환의 관계는 관찰된 연관성이며, 반복 방문이 결제를 직접 유발했다고 단정할 수 없습니다.
+- 다지점 이용자는 218명으로 전체 방문자에 비해 표본이 적어 결과를 신중하게 해석해야 합니다.
+- 전환 모델의 ROC-AUC는 약 0.565로, 개인별 결제 여부를 정확하게 예측하는 모델로 활용하기에는 한계가 있습니다.
+- 리뷰 데이터는 출처별 표본 수와 작성 목적이 달라 긍정·부정 비율을 직접 비교하기 어렵습니다.
+- 지점 분석 대상이 9개로 제한돼 지점 단위 통계 검정의 검정력이 충분하지 않을 수 있습니다.
+- 임대료, 경쟁 지점, 건물 가시성, 상품 가격 등 일부 사업 변수가 포함되지 않았습니다.
+
+따라서 분석 결과는 인과적 결론보다는 고객 행동과 지점별 병목을 탐색하고, 후속 실험의 우선순위를 설정하는 근거로 활용했습니다.
+
+---
+
 ## Deliverables
 
 | 산출물 | 링크 |
@@ -162,6 +178,32 @@ D1 재방문 리마인드 메시지의 효과를 검증하는 실험을 설계�
 | 최종 발표자료 | [Presentation PDF](presentation/shared_office_trial_conversion_presentation.pdf) |
 | 대시보드 소개 | [Dashboard README](dashboard/README.md) |
 | Tableau Public | [Dashboard](https://public.tableau.com/app/profile/.79502505/viz/_17854259361800/2) |
+
+---
+
+## Data Sources
+
+분석에는 프로젝트에서 제공된 내부 데이터와 공공·외부 데이터를 함께 활용했습니다.
+
+| 구분 | 데이터 | 주요 활용 |
+|---|---|---|
+| 내부 데이터 | 무료체험 신청·방문·출입·결제 데이터 | 퍼널 분석, 행동 분석, 결제 전환 분석 |
+| 내부 데이터 | 지점 면적 데이터 | 지점별 수요 및 성과 비교 |
+| 공공데이터 | 서울시 지하철역별 승하차 인원 | 지점 반경 유동인구 분석 |
+| 공공데이터 | 서울시 역사 마스터 정보 | 지하철역 위치 및 지점 인접역 연결 |
+| 외부 데이터 | 카카오 로컬 API | 지점 주변 인프라 수집 |
+| 외부 데이터 | Open-Meteo Historical Weather API | 일자별 기상 변수 수집 |
+| 외부 데이터 | 지도·블로그 리뷰 | 지점별 공간 경험 및 불편 요소 분석 |
+
+### External Data Links
+
+- [서울시 지하철호선별 역별 승하차 인원 정보](https://data.seoul.go.kr/)
+- [서울시 역사 마스터 정보](https://data.seoul.go.kr/)
+- [카카오 로컬 API](https://developers.kakao.com/docs/latest/ko/local/common)
+- [Open-Meteo Historical Weather API](https://open-meteo.com/en/docs/historical-weather-api)
+- [공공데이터포털](https://www.data.go.kr/)
+
+> 내부 원본 데이터는 제공 기관과 기업의 정보 보호를 위해 공개하지 않았습니다.
 
 ---
 
@@ -198,6 +240,16 @@ D1 재방문 리마인드 메시지의 효과를 검증하는 실험을 설계�
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white">
   <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white">
 </p>
+
+---
+
+## References
+
+- [공유오피스 이용자가 인식하는 공유오피스 주요 서비스품질에 대한 연구](https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART0025907)
+- [공유오피스 선택속성의 품질 분류 및 선택속성이 신뢰, 장기이용의도에 미치는 영향](https://www.earticle.net/Article/A386493)
+- [Coworking spaces: An overview and research agenda](https://www.sciencedirect.com/science/article/pii/S0048733321002390)
+- [Identifying and prioritizing coworking member needs](https://www.emerald.com/jcre/article/26/4/309/1238377/)
+- [Space-sharing experiences in hospitality: A psychological needs perspective](https://www.emerald.com/ijchm/article/37/13/252/1310575/)
 
 ---
 
